@@ -11,6 +11,7 @@
     "start": "watchman watch-del-all && APP_ENV=dev npx  react-native start --reset-cache"
   },
   "dependencies": {
+    "@react-native-community/slider": "^4.5.5",
     "react": "18.3.1",
     "react-native": "0.76.1"
   },

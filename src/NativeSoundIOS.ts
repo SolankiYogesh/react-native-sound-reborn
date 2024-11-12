@@ -33,7 +33,6 @@ export interface Spec extends TurboModule {
   setCategory: (value: string, mixWithOthers?: boolean) => void;
   setLooping: (key: number, looping: boolean) => void;
   getDuration: (key: number, callback: (duration: number) => void) => void;
-
   setSpeakerPhone: (key: number, isSpeaker: boolean) => void;
 }
 
