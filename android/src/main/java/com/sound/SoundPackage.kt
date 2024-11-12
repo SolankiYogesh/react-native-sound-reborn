@@ -25,11 +25,12 @@ class SoundPackage : TurboReactPackage() {
         SoundModule.NAME,
         false,  // canOverrideExistingModule
         false,  // needsEagerInit
-        true,  // hasConstants
+        false,  // hasConstants
         false,  // isCxxModule
         isTurboModule // isTurboModule
       )
       moduleInfos
     }
   }
+
 }
