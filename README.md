@@ -1,33 +1,4 @@
-# react-native-sound
+# react-native-sound with new architecture
 
-React Native module for playing sound clips on iOS, Android
-
-## Installation
-
-```sh
-npm install react-native-sound
-```
-
-## Usage
-
-
-```js
-import { multiply } from 'react-native-sound';
-
-// ...
-
-const result = await multiply(3, 7);
-```
-
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+Support for React Native New Architecture for React Native Sound
+(PR: https://github.com/zmxv/react-native-sound/pull/850)
