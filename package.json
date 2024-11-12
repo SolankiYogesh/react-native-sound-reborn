@@ -23,6 +23,7 @@
     "android",
     "ios",
     "cpp",
+    "windows",
     "*.podspec",
     "react-native.config.json",
     "!ios/build",
