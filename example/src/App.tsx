@@ -221,44 +221,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-evenly',
   },
-  recently_played_view: {
-    height: '25%',
-    width: '100%',
-  },
-  recently_played_text: {
-    fontWeight: 'bold',
-    fontSize: 16,
-    color: '#808080',
-    marginLeft: '5%',
-    marginTop: '6%',
-  },
-  recently_played_list: {
-    backgroundColor: '#FFE3E3',
-    height: '50%',
-    width: '90%',
-    borderRadius: 10,
-    marginLeft: '5%',
-    marginTop: '5%',
-    alignItems: 'center',
-    flexDirection: 'row',
-  },
-  recently_played_image: {
-    height: '80%',
-    width: '20%',
-    borderRadius: 10,
-  },
-  recently_played_list_text: {
-    height: '100%',
-    width: '60%',
-    justifyContent: 'center',
-  },
-  recently_played_list_text1: {
-    fontSize: 15,
-    marginLeft: '8%',
-  },
-  recently_played_list_text2: {
-    fontSize: 16,
-    color: '#808080',
-    marginLeft: '8%',
-  },
 });
