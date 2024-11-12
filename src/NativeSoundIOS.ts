@@ -28,7 +28,6 @@ export interface Spec extends TurboModule {
     options: SoundOptionTypes,
     callback: () => void
   ) => void;
-  enable: (enabled: boolean) => void;
   enableInSilenceMode: (enabled: boolean) => void;
   setActive: (value: boolean) => void;
   setCategory: (value: string, mixWithOthers?: boolean) => void;

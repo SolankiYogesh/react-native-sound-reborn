@@ -26,12 +26,9 @@ export interface Spec extends TurboModule {
     options: SoundOptionTypes,
     callback: () => void
   ) => void;
-  enable: (enabled: boolean) => void;
-  setCategory: (value: string, mixWithOthers?: boolean) => void;
+  setCategory: (value: string, mixWithOthers: boolean) => void;
   setLooping: (key: number, looping: boolean) => void;
-  addListener: (eventName: string) => void;
-  removeListeners: (count: number) => void;
   setSpeakerphoneOn: (key: number, value: boolean) => void;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('Sound') as Spec;
+export default TurboModuleRegistry.getEnforcing<Spec>('Sound');
